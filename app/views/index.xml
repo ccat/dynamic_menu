@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="index" class="container">
+		<Menu platform="android">
+            <MenuItem id="menu1" itemId="1" title="Menu1" onClick="menu1func"  />
+            <MenuItem id="menu2" itemId="2" title="Menu2" onClick="menu2func" />
+		</Menu>
+
+		<Label id="label" onClick="doClick">Hello, World</Label>
+
+	</Window>
+</Alloy>
+
